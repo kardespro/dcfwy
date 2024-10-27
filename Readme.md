@@ -26,3 +26,5 @@ npm run dcfwy
 ```
 
 ### Not: Railway,Replit gibi platformlarda kurup calistira bilirsiniz 
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=dcfwy&type=git&repository=kardespro%2Fdcfwy&branch=main&builder=buildpack&regions=was&env%5B%5D=&ports=3000%3Bhttp%3B%2F)
