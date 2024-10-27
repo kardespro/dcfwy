@@ -1,0 +1,11 @@
+server:
+  port: 3000
+
+cache:
+  duration: 21600  # 6 saat
+
+redis:
+  host: 'localhost'
+  port: 6379
+  password: null  
+  db: negoone_cache
