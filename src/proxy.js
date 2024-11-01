@@ -59,7 +59,7 @@ class startDcfwy {
         selfHandleResponse: true,
         onProxyRes: async (proxyRes, req, res) => {
           let responseBody = "";
-
+          res.setHeader("x-proxy-app","kardespro/dcfwy")
           Object.keys(proxyRes.headers).forEach((header) => {
             res.setHeader(header, proxyRes.headers[header]);
           });
